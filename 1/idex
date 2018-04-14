@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>Interactive Motion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="sketch.css" />
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+
+    <div id="sketch">
+    </div>
+    <p class="overlay1" id="dayOfYear">Day 120</p>
+    <p class="subtext1" id="subDate">May 7</p>
+    <p class="overlay2">365</p>
+    <p class="subtext2">Design<br/>something<br/>Every Day</p>
+    <p class="rotateR rightVert">Inspired by
+        <a href="https://dribbble.com/Katro">
+            <nobr>Vasjen Katro
+            </nobr>
+        </a>
+    </p>
+    <p class="rotateL leftVert">Hunter Bryant <span class="bigger">&copy;</span> 2016-2017</p>
+    <p class="overlay3" id="bottomText">Click, drag,<br/>and rotate me!</p>
+</body>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-89688793-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</html>
